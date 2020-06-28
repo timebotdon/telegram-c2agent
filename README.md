@@ -4,8 +4,9 @@ about nodeJS. Applying them this time for the red side!
 
 ## Previews
 Some information is blocked out for obvious reasons.
-![preview1](preview1.jpg?raw=true "preview1")
-![preview2](preview2.jpg?raw=true "preview2")
+
+<img src="preview1.jpg" width="300">
+<img src="preview2.jpg" width="300">
 
 ## Required modules:
 * node-telegram-bot-api
@@ -16,7 +17,7 @@ Some information is blocked out for obvious reasons.
 1. Clone repo and `cd` into the folder:
   ```bash
   git clone https://www.github.com/timebotdon/telegram-c2agent
-  cd telegram-whattoeatah
+  cd telegram-c2agent
   ```
 
 2. Install required modules and dependencies:
