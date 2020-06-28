@@ -1,5 +1,4 @@
 test/*
 *test*
 node_modules/*
-doc/*
 package-lock.json

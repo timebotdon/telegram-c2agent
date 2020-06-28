@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node agent.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.40.0"
+    "archiver": "^4.0.1",
+    "node-telegram-bot-api": "^0.40.0",
+    "screenshot-desktop": "^1.12.1"
   }
 }
