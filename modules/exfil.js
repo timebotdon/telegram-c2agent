@@ -9,7 +9,7 @@ function zipDir(dirName){
   return new Promise((resolve, reject) => {
     //grab date/time
     getDateTime().then((dateString) => {
-      var outputPath = __dirname + "/export-" + dateString + '.zip'
+      var outputPath = "C:\\Windows\\Temp\\" + "export-" + dateString + '.zip'
       var output = fs.createWriteStream(outputPath);
       var archive = archiver('zip');
   

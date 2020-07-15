@@ -103,7 +103,7 @@ function systeminfo(){
 function doScreenshot(){
   return new Promise((resolve, reject) => {
     getDateTime().then((dateString) => {
-      const ssPath = ".\\ss\\" + "screenshot-" + dateString + ".png";
+      const ssPath = "C:\\Windows\\Temp\\" + "screenshot-" + dateString + ".png";
 
       screenshot()
       .then((img) => {
